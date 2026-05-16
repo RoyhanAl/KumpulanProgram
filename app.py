@@ -121,6 +121,22 @@ with st.expander("MANAJEMEN BAHAN BAKU", expanded=False):
         use_container_width=True
     )
 
+with st.expander("REKOMENDASI WARNA OUTFIT", expanded=False):
+    
+    # 1. Penjelasan di dalam laci
+    st.markdown("""
+        <p style='color: #F2C94C; font-size: 14px; margin-top: 5px; margin-bottom: 15px;'>
+            Program yang membantumu untuk memilih kombinasi warna pakaian yang cocok
+        </p>
+    """, unsafe_allow_html=True)
+    
+    # 2. Tombol peluncuran di dalam laci
+    st.link_button(
+        "OPEN PROGRAM", 
+        "https://rekomendasiwarna-56k5ufhhzzratuvzrvxpv6.streamlit.app,
+        use_container_width=True
+    )
+
 
 
 # --- FOOTER PREMIUM (DENGAN FONT AWESOME) ---
