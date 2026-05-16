@@ -133,7 +133,7 @@ with st.expander("REKOMENDASI WARNA OUTFIT", expanded=False):
     # 2. Tombol peluncuran di dalam laci
     st.link_button(
         "OPEN PROGRAM", 
-        "https://rekomendasiwarna-56k5ufhhzzratuvzrvxpv6.streamlit.app,
+        "https://rekomendasiwarna-56k5ufhhzzratuvzrvxpv6.streamlit.app",
         use_container_width=True
     )
 
